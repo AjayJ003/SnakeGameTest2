@@ -1,0 +1,147 @@
+body{
+    background-color: #bce7f5;
+    display: grid;
+    grid-template-columns: 65vmin 65vmin;
+    align-items: center;
+    grid-gap: 25px;
+}
+.Heading{
+    display: grid;
+    justify-content: center;
+    font-family: 'Sofia', Courier, monospace;
+    font-size: 35px;
+}
+.outerWindow{
+
+    height: 70vmin;
+    width: 65vmin;
+}
+.gameScore{
+    display: flex;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 20px 20px;
+    background-color: #3d02e0;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-family: 'Sofia', Courier, monospace;
+}
+.playBoard{
+    display: grid;
+    height: 84%;
+    width: 100%;
+    background-color: #417ffa;
+    grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+
+}
+.outerlb{
+  display: grid;
+  height: 70vmin;
+  width: 65vmin;
+  color:black;
+  justify-content: center;
+}
+
+.lb{
+  align-items: center;
+  align-content: center;
+  display: grid;
+  height: 70vmin;
+  width: 35vmin;
+  justify-content: center;
+  justify-content: space-evenly;
+  font-family: 'Sofia', Courier, monospace;
+  background-color:aqua;
+  border-radius: 5px;
+}
+
+.food{
+    background: red;
+    border-radius: 10px;
+}
+.snake{ 
+    background-color:darkgreen;
+    border-radius: 3px;
+}
+.exit{
+    display: grid;
+    background-color: #3d02e0;
+    height: 7%;
+    width: 100%;
+    border-bottom-left-radius:5px ;
+    border-bottom-right-radius:5px ;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-family: 'Sofia', Courier, monospace;
+    font-size: 25px;
+}
+a{
+    color: black;
+}
+
+.buttonControls {
+    display: none;
+    justify-content: space-between;
+  }
+
+.buttonControls i {
+    padding: 25px 0;
+    text-align: center;
+    font-size: 1.3rem;
+    background-color: #05e9ed;
+    color: black;
+    width: calc(100% / 4);
+    cursor: pointer;
+    border-right: 1px solid #171B26;
+}
+
+@media screen and (max-width: 700px) {
+    .outerWindow {
+      width: 70vmin;
+      height: 70vmin;
+    }
+    .gameScore {
+      font-size: 1rem;
+      padding: 15px 27px;
+    }
+    .buttonControls{
+      display: flex;
+    }
+    .buttonControls i {
+      padding: 15px 0;
+      font-size: 1rem;
+    }
+    .exit{
+      font-size: 1rem;
+      height: 10%;
+    }
+    body{
+      background-color: #bce7f5;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    } 
+    
+    .outerlb{
+      display: grid;
+      height: 90vmin;
+      width: 65vmin;
+      color:black;
+      justify-content: center;
+    }
+    
+    .lb{
+      align-items: center;
+      align-content: center;
+      display: grid;
+      height: 70vmin;
+      width: 35vmin;
+      justify-content: center;
+      justify-content: space-evenly;
+      font-family: 'Sofia', Courier, monospace;
+      background-color:aqua;
+      border-radius: 5px;
+    }
+}

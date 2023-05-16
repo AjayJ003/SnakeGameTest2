@@ -1,0 +1,3 @@
+const reloadfunc = () => {
+    location.reload();
+}

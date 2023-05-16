@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnakeGame</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+<body>
+    <audio autoplay loop src="audio2.mp3"></audio>
+    
+    <div class="outerlb">
+        <p class="Heading">LeaderBoard</p>
+        <div class="lb">
+            <ul>
+                <li>Ajay</li>
+                <li>Hari</li>
+            </ul>
+        </div>
+    </div>
+    <div class="outerWindow">
+        <p class="Heading">Snake Game</p>
+
+        <div class="gameScore">
+            <span class="score">Score : 0</span>
+            <span class="timer">Timer : 60 </span>
+            <span class="highScore">HighScore : 0</span>
+        </div>       
+
+        <div class="playBoard"></div>
+        <div class="buttonControls">
+            <i data-key="ArrowLeft" class="fa-solid fa-arrow-left-long"></i>
+            <i data-key="ArrowUp" class="fa-solid fa-arrow-up-long"></i>
+            <i data-key="ArrowRight" class="fa-solid fa-arrow-right-long"></i>
+            <i data-key="ArrowDown" class="fa-solid fa-arrow-down-long"></i>
+        </div>
+        <div class="exit"><a href="index.html">Exit</a></div>
+    </div>
+
+    <script src="script.js" drefer></script>
+    
+</body>
+</html>

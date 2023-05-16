@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    grid-gap: 6px;
+}
+a{
+    position: relative;
+    padding: 60px 60px;
+    background-color: #fcba03;
+    color: black;
+    font-family: 'Sofia', Courier, monospace;
+    font-size: 45px;
+    transition: 1s;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+a:hover
+{
+    background-color: #a17703;
+    letter-spacing: 6px;
+}
+.resetbutton{
+    position: relative;
+    padding: 60px 60px;
+    background-color: #fcba03;
+    color: black;
+    font-family: 'Sofia', Courier, monospace;
+    font-size: 45px;
+    transition: 1s;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+
+
+
+
+}
+.resetbutton:hover{
+    background-color: #a17703;
+    letter-spacing: 4px;
+}
